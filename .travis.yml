@@ -16,7 +16,7 @@
 # few manual operations that is possible with Travis
 #
 # Travis CI uploads the cache after the script phase of the build [0].
-# However, the build is terminated without saving the chache if it takes over
+# However, the build is terminated without saving the cache if it takes over
 # 50 minutes [1]. Thus, if we spent too much time in early build stages, fail
 # with an error and save the cache.
 #

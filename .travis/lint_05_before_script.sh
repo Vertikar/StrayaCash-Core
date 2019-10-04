@@ -6,4 +6,4 @@
 
 export LC_ALL=C
 
-git fetch --unshallow
+if [[ -a .git/shallow ]]; then git fetch --unshallow; fi

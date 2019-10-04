@@ -27,8 +27,7 @@
 dist: xenial
 os: linux
 language: minimal
-git:
-  depth: 99999
+
 cache:
   ccache: true
   directories:
